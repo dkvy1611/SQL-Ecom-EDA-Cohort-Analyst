@@ -33,6 +33,26 @@ Link dataset: [theLook Ecommerce](https://console.cloud.google.com/marketplace/p
   Thống kê tổng doanh thu theo ngày của từng danh mục sản phẩm (category) trong 3 tháng qua (giả sử ngày hiện tại là 15/4/2022)
 
 ## III.  Cohort Analysis.
+
+### Tổng quan về Cohort Analysis
+Cohort analysis là một phương pháp trong lĩnh vực phân tích dữ liệu để theo dõi và đánh giá hành vi của một nhóm người dùng (cohort) qua thời gian. Một cohort là một nhóm người dùng có những đặc tính chung hoặc trải qua một sự kiện chung trong một khoảng thời gian nhất định. Phân tích cohort giúp ta hiểu rõ hơn về sự thay đổi trong hành vi của người dùng theo thời gian và theo các yếu tố nhất định.
+
+Các ứng dụng phổ biến của cohort analysis bao gồm:
+
+1. **Retention Analysis:** Theo dõi tỷ lệ giữ chân (retention rate) của các nhóm người dùng theo thời gian. Điều này giúp hiểu xem bao nhiêu người dùng ở lại sau một khoảng thời gian cụ thể.
+
+2. **Churn Analysis:** Phân tích tỷ lệ chuyển đổi (churn rate) để đánh giá tỷ lệ người dùng bỏ đi trong các cohort cụ thể.
+
+3. **Behavior Analysis:** Theo dõi hành vi của các nhóm người dùng qua thời gian để hiểu cách họ tương tác với sản phẩm hoặc dịch vụ.
+
+4. **Revenue Analysis:** Xem xét doanh thu và giá trị customer lifetime value (CLV) theo cohort để hiểu giá trị của các nhóm người dùng khác nhau.
+
+5. **Product Adoption:** Theo dõi sự tiếp cận và sử dụng sản phẩm hoặc tính năng mới theo từng nhóm người dùng khác nhau.
+
+Cohort analysis giúp các doanh nghiệp và nhà nghiên cứu hiểu rõ hơn về sự thay đổi theo thời gian và cung cấp thông tin quan trọng để điều chỉnh chiến lược kinh doanh và marketing.
+
+### Yêu cầu:
+
 Cần dựng dashboard Cohort Analysis và có yêu cầu xử lý dữ liệu trước khi kết nối với BI tool. 
 
 Các metric cần thiết cho dashboard và cần phải trích xuất dữ liệu từ database để ra được 1 dataset như mô tả:
